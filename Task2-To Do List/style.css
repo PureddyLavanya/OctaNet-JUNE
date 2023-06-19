@@ -1,0 +1,86 @@
+body{
+    background-image:url("bg.jpeg");
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+}
+.dl{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    height:40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight:700;
+    font-size: 18rpx;
+}
+#hd{
+    color:azure;
+    margin-top:10px;
+}
+#newtask{
+    margin-top:6%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:24px;
+    color: rgb(188, 200, 200);
+}
+#newtask input{
+    border: 2px solid black;
+    padding:15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+button{
+    border:px solid black;
+    padding: 10px;
+    width: 100px;
+    margin: 20px;
+    border-radius:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 189, 107);
+}
+button:hover{
+    background-color: rgb(222, 45, 45);
+    margin:2px;
+}
+#taskhead{
+    background-color: rgb(107, 226, 99);
+    padding: 20px;
+    width: 100%;
+    height:40px;
+    position: fixed;
+    font-weight:700;
+    font-size: 18rpx;
+    color:azure;
+    width:35%;
+    margin-left: 30%;
+}
+#tasks{
+    width:35%;
+    position: relative;
+    background: white;
+    border-radius:15px;
+    color: black;
+    margin-top:35px;
+}
+.task{
+    background: rgb(216, 211, 211);
+    height: 40px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border:2px solid  rgb(107, 226, 99);
+    text-align: center;
+}
